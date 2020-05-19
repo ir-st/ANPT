@@ -1,0 +1,1 @@
+本项目通过python调用Kali Linux中的工具（在示例中主要使用了 Nmap、Nessus、Metasploit和自行编写的漏洞利用脚本等）以攻击者杀链的标准化流程，参考MITRE ATT&CK®模型的战术、技术和过程。借助MongoDB打通工具间的信息共享渠道，实现全自动渗透测试，并通过Web页面将整个过程进行展示。
