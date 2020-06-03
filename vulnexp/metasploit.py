@@ -30,7 +30,7 @@ def Handler(configFile, lhost, lport, rhost):  #漏洞利用参数
 
     configFile.write('spool off\n')
 
-def writedb():  #msf日志文件路径村库
+def writedb():  #msf日志文件路径存库
     a = os.getcwd()  # 获取当前路径
     path = {}
     path['logfile'] = (a + '/log.txt')
