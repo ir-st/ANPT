@@ -59,6 +59,4 @@ def main():
 
     writedb()
 
-
-
 main()
