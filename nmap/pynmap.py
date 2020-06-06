@@ -4,7 +4,7 @@ import nmap
 import pymongo
 import csv
 import time
-scan_range = '192.168.186.31'  #扫描目标
+scan_range = '192.168.186.128'  #扫描目标
 scan_ports = '22,23,53,80,443,445'  #端口多个端口逗号隔开，范围用‘-’分隔
 
 nm = nmap.PortScanner()
