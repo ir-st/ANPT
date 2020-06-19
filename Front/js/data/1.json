@@ -1,0 +1,44 @@
+{
+ "name": "扫描结果",
+ "children": [
+  {
+   "name": "紧急",
+
+     "children": [
+      {"name":"MS14-066: Vulnerability in Schannel Could Allow Remote Code Execution (2992611) (uncredentialed check)", "value": 79638},
+      {"name":"Microsoft RDP RCE (CVE-2019-0708) (BlueKeep) (uncredentialed check)", "value": 125313},
+      {"name":"Unsupported Windows OS (remote)", "value": 108797}
+     ]
+    },
+    {
+     "name": "高危",
+     "children": [
+      {"name":"MS12-020: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution (2671387) (uncredentialed check)", "value": 58435},
+      {"name":"MS17-010: Security Update for Microsoft Windows SMB Server (4013389) (ETERNALBLUE) (ETERNALCHAMPION) (ETERNALROMANCE) (ETERNALSYNERGY) (WannaCry) (EternalRocks) (Petya) (uncredentialed check)", "value": 97833},
+      {"name":"Microsoft Windows SMB NULL Session Authentication", "value": 26920}
+     ]
+    },
+    {
+     "name":"中危",
+     "children": [
+      {"name":"SSL Certificate Cannot Be Trusted", "value": 51192},
+      {"name":"SSL Self-Signed Certificate", "value": 57582},
+      {"name":"MS16-047: Security Update for SAM and LSAD Remote Protocols (3148527) (Badlock) (uncredentialed check)", "value": 90510},
+      {"name":"Microsoft Windows Remote Desktop Protocol Server Man-in-the-Middle Weakness", "value": 18405},
+      {"name":"SMB Signing not required", "value": 57608},
+      {"name":"SSL Certificate Signed Using Weak Hashing Algorithm", "value": 35291},
+      {"name":"SSL Medium Strength Cipher Suites Supported (SWEET32)", "value": 42873},
+      {"name":"SSL RC4 Cipher Suites Supported (Bar Mitzvah)", "value": 65821},
+      {"name":"Terminal Services Doesn't Use Network Level Authentication (NLA) Only", "value": 58453},
+      {"name":"Terminal Services Encryption Level is Medium or Low", "value": 57690}
+     ]
+    },
+    {
+     "name": "低危",
+     "children": [
+      {"name":"Terminal Services Encryption Level is not FIPS-140 Compliant", "value": 30218}
+     ]
+    }
+]
+}
+    

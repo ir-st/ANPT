@@ -1,0 +1,25 @@
+{
+ "name": "开放端口",
+ "children": [
+      {"name": "135/tcp",
+      "children":[{"name":"msrpc"}]},
+      {"name": "139/tcp",
+      "children":[{"name":"netbios-ssn"}]},
+      {"name": "445/tcp",
+      "children":[{"name":"microsoft-ds"}]},
+      {"name": "3389/tcp",
+      "children":[{"name":"ms-wbt-server"}]},
+      {"name": "49152/tcp",
+      "children":[{"name":"unknown"}]},
+      {"name": "49153/tcp",
+      "children":[{"name":"unknown"}]},
+      {"name": "49154/tcp",
+      "children":[{"name":"unknown"}]},
+      {"name": "49155/tcp",
+      "children":[{"name":"unknown"}]},
+      {"name": "49156/tcp",
+      "children":[{"name":"unknown"}]},
+      {"name": "49157/tcp",
+      "children":[{"name":"unknown"}]}
+    ]
+}
